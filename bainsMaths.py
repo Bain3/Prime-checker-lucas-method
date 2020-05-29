@@ -11,7 +11,7 @@ def lucasNumber(count):
     base = 2
     base2 = 1
     three = 0
-    if count == 0:  #Send 1 inf count is zero
+    if count == 0:  #Send 1 if count is zero
         return base2
     for i in range(0, count): #Lucas number algorithm
         three = base + base2
@@ -27,7 +27,7 @@ def fiSequence(count):
     base = 0
     base2 = 1
     three = 0
-    if count == 0:  #Send 1 inf count is zero
+    if count == 0:  #Send 1 if count is zero
         return base2
     for i in range(0, count): #Lucas number algorithm
         three = base + base2
